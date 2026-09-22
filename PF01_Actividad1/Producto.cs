@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace PF01_Actividad1
 {
@@ -15,6 +16,9 @@ namespace PF01_Actividad1
             Precio = precio;
         }
 
-
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Nombre: {NombreProd}, Edad: {Precio}");
+        }
     }
 }
