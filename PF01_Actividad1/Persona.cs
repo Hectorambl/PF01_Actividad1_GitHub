@@ -16,5 +16,11 @@ namespace PF01_Actividad1
             Edad = edad;
         }
 
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
+        }
+
     }
 }
