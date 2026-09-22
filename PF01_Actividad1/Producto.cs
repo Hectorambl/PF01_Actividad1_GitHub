@@ -9,6 +9,12 @@ namespace PF01_Actividad1
         public string NombreProd { get; set; }
         public int Precio { get; set; }
 
+        public Producto(string nombre, int precio)
+        {
+            NombreProd = nombre;
+            Precio = precio;
+        }
+
 
     }
 }
