@@ -22,5 +22,10 @@ namespace PF01_Actividad1
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
         }
 
+        public void ModificarNombre(string nombre)
+        {
+            Nombre = nombre;
+        }
+
     }
 }
