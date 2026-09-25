@@ -27,5 +27,11 @@ namespace PF01_Actividad1
             Nombre = nombre;
         }
 
+        public bool ComprobarEdad(int per)
+        {
+            if (per >= 18)
+                return true;
+            return false;
+        }
     }
 }
