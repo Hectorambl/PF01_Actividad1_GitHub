@@ -9,6 +9,8 @@
 
             pers.ModificarNombre("Carlos");
             pers.MostrarDatos();
+
+            bool p = pers.ComprobarEdad(pers.Edad);
         }
     }
 }
