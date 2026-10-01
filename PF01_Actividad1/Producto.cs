@@ -14,5 +14,10 @@ namespace PF01_Actividad1
             NombreProd = nombre;
             Precio = precio;
         }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Nombre: {NombreProd}, Edad: {Precio}");
+        }
     }
 }
