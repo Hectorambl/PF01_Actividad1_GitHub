@@ -21,5 +21,11 @@ namespace PF01_Actividad1
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
         }
 
+        public bool ComprobarEdad(int per)
+        {
+            if (per >= 18)
+                return true;
+            return false;
+        }
     }
 }
