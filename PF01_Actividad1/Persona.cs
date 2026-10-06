@@ -21,9 +21,17 @@ namespace PF01_Actividad1
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
         }
 
+<<<<<<< HEAD
         public void MdificarNombre(string nuevoNombre)
         {
             Nombre = nuevoNombre;
+=======
+        public bool ComprobarEdad(int per)
+        {
+            if (per >= 18)
+                return true;
+            return false;
+>>>>>>> origin/Func2_dev2
         }
     }
 }
